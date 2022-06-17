@@ -7,7 +7,7 @@
     @foreach ($groups as $group)
         <div class="card mt-2 mb-2" style="width: 18rem;">
             <div class="card-body">
-                <h5 class="card-title"><a href="/groups/{{ $group['id'] }}"
+                <h5 class="card-title"><a href="/groups/addmember/{{ $group['id'] }}"
                         class="text-decoration-none">{{ $group['name'] }}</a></h5>
                 <p class="card-text">{{ $group['description'] }}</p>
 
